@@ -1,0 +1,11 @@
+1_ Mudar pergunta de pacote
+2_ Classe estoqueConsulta: 2 métodos ( adicionar livroFis e adicionarEbook / printaLivros(printa livros adicionados em estoque) / getLista pra fisicos e Ebook )
+Não possui consultarLivro, só retorna a lista se está ou n no estoque
+3_ Book ( Não possui estoque, não possui código, não possui método avaliar )
+4_ Classe avaliação nao existe
+5_ Classe genero nao existe
+6_ Interfaces no pacote produto e não em um pacote separado somente para elas
+7_ Implementar o pacote pagamento
+8_ Implementar o pacote venda
+9_ Implementar o pacote atendimentos (onde vai a classe pergunta)
+10_ Implementar o pacote controllers
