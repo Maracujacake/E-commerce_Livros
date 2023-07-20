@@ -1,12 +1,16 @@
 // PSEUDOCÓDIGO
 
 main() {
+map = {usuario, senha};
+
+
 estoque EstoqueGeral = new estoque();
 Cliente Pedro = new Cliente();
 Vendedor João = new Vendedor(idAleatorio); // cada vendedor tem um id unico
 
-login(Usuario_PEdro, senha_Pedro); // login inválido
-registro(Usuario_Pedro, senha_Pedro); // adiciona usuario e senha na lista de login
+login(map, Usuario_PEdro, senha_Pedro); // login inválido
+registro(map, Usuario_Pedro, senha_Pedro); // adiciona usuario e senha na lista de login
+registro(map, Usuario_Joao, senha_Joao);
 
 login(Usuario_João, senha_joão); // login válido, ou seja, as informações estavam na lista
 João.adicionaLivro("Nome", "Editora", "Páginas", "Edição" ... etc); // vai criar uma instância de livro 
@@ -15,10 +19,10 @@ itemEstoque Item1 = new ItemEstoque(Livro1, "Preço", "Quantidade", idProduto, i
 estoqueGeral.adicionaITem(Item1) // passa o item que deseja adicionar ao estoque
 
 
-estoqueGeral.buscaLivro(Item -> Livro -> Nome) // procura um livro a partir de uma string que está armazenada dentro de itemEstoque e dentro do livro
+estoqueGeral.buscaLivro("nome do livro") // procura um livro a partir de uma string que está armazenada dentro de itemEstoque e dentro do livro
 // mostra na tela uma mensagem (lista mostrando as informações daqueles itens que contiverem o mesmo nome em livro OU uma mensagem dizendo que não há livros compatíveis com a string buscada)
 
-carrinhoCompras carrinhoPedro = mew carrinhoCompras();
+carrinhoCompras carrinhoPedro = new carrinhoCompras();
 carrinhoPedro.adicionarItem(id_do_item, quantidade) // visto que cada itemProduto possui um id
 
 // decrementar do itemProduto a quantidade adicionada no carrinho
