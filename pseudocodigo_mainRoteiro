@@ -1,0 +1,41 @@
+// PSEUDOCÓDIGO
+
+main() {
+estoque EstoqueGeral = new estoque();
+Cliente Pedro = new Cliente();
+Vendedor João = new Vendedor(idAleatorio); // cada vendedor tem um id unico
+
+login(Usuario_PEdro, senha_Pedro); // login inválido
+registro(Usuario_Pedro, senha_Pedro); // adiciona usuario e senha na lista de login
+
+login(Usuario_João, senha_joão); // login válido, ou seja, as informações estavam na lista
+João.adicionaLivro("Nome", "Editora", "Páginas", "Edição" ... etc); // vai criar uma instância de livro 
+Livrofis Livro1 = new Livrofis("Nome", "Editora", "Páginas", "Edição" ... etc); // caso o método acima não seja válido ou muito confuso
+itemEstoque Item1 = new ItemEstoque(Livro1, "Preço", "Quantidade", idProduto, idVendedor);
+estoqueGeral.adicionaITem(Item1) // passa o item que deseja adicionar ao estoque
+
+
+estoqueGeral.buscaLivro(Item -> Livro -> Nome) // procura um livro a partir de uma string que está armazenada dentro de itemEstoque e dentro do livro
+// mostra na tela uma mensagem (lista mostrando as informações daqueles itens que contiverem o mesmo nome em livro OU uma mensagem dizendo que não há livros compatíveis com a string buscada)
+
+carrinhoCompras carrinhoPedro = mew carrinhoCompras();
+carrinhoPedro.adicionarItem(id_do_item, quantidade) // visto que cada itemProduto possui um id
+
+// decrementar do itemProduto a quantidade adicionada no carrinho
+// carrinho vai guardar o valor total da compra até o momento
+
+// cada produto possui um id próprio então caso surja a pergunta: '' para que serve o id do vendedor? ''
+// o id do vendedor pode servir para retornar todos os items que aquele vendedor pôs à venda, visto que todos compartilham o mesmo id de vendedor, mesmo que o id de produto seja diferente.
+
+// Pedro deseja confirmar a compra
+
+Pedido pedidoPedro123124 = new Pedido(carrinho de compras); // passa carrinho de compras (o valor total da compra) para este novo objeto
+metodoPagamento(pedido, debito OU credito OU Pix); // caso credito, perguntar parcelas, caso pix, mostrar a chave, caso debito, mostrar apenas o preço
+
+}
+
+/*
+COMENTÁRIOS
+
+
+*/
