@@ -1,0 +1,44 @@
+Caso de uso 1 : Vendedor coloca livro à venda (exemplo livro fisico)
+
+Ator primário : vendedor
+
+Pré-condições: 
+o vendedor deve estar cadastrado/logado no sistema.
+o livro que o vendedor deseja vender deve estar cadastrado no sistema.
+
+Fluxo principal:
+Vendedor acessa o sistema
+Vendedor apresenta as informações relevantes para o livro que deseja vender(nome, quantidade, preco e seu ID)
+Vendedor revisa as informações colocadas
+O sistema salva as informações inseridas na base de dados
+O livro agora está disponível para venda (disponível no estoque)
+
+---
+
+
+Caso de uso 2 : Vendedor coloca livro à venda (exemplo ebook)
+
+Ator primário : vendedor
+
+Pré-condições: 
+o vendedor deve estar cadastrado/logado no sistema.
+o livro que o vendedor deseja vender deve estar cadastrado no sistema.
+
+Fluxo principal:
+Vendedor acessa o sistema
+Vendedor apresenta as informações relevantes para o livro que deseja vender(nome, disponibilidade, preco e seu ID)
+Vendedor revisa as informações colocadas
+O sistema salva as informações inseridas na base de dados
+O livro agora está disponível para venda (disponível no estoque)
+
+---
+
+Caso de uso 3: Cliente quer comprar um livro
+
+Ator primário : cliente
+
+Pré-condições:
+cliente deve estar cadastrado/logado no sistema.
+cliente visualiza os livros disponíveis no estoque.
+cliente adiciona os livros desejados, juntamente de sua quantidade no seu carrinho de compras.
+cliente decide gerar o pedido e pagá-lo.
